@@ -1,0 +1,18 @@
+# Secrets: never commit your real API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated vector store (rebuilt on every run)
+chroma_db/
+
+# Source documents: bring your own PDF
+data/*.pdf
+
+# Editor / OS
+.vscode/
+.DS_Store
